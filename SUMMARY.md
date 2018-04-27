@@ -102,4 +102,15 @@
   * [Elastic Container Service](application-services/elastic-container-service.md)
 * [Resource Groups/Tagging](resource-groups-tagging.md)
 * [Billing and Support](billing-and-support.md)
+* Whitepapers Reviews
+  * [Overview of Security Processes Whitepaper](whitepapers-reviews/overview-of-security-processes-whitepaper.md)
+  * [Risk and Compliance Whitepaper](whitepapers-reviews/risk-and-compliance-whitepaper.md)
+  * [Storage Options in the Cloud Whitepaper](whitepapers-reviews/storage-options-in-the-cloud-whitepaper.md)
+  * [Architecting for AWS Cloud - Best Practices Whitepaper](whitepapers-reviews/architecting-for-aws-cloud-best-practices-whitepaper.md)
+* [The Well Architected Framework](the-well-architected-framework/README.md)
+  * [Pillar 1 - Security](the-well-architected-framework/pillar-1-security.md)
+  * [Pillar 2 - Reliability / Fault Tolerance](the-well-architected-framework/pillar-2-reliability-fault-tolerance.md)
+  * [Pillar 3 - Performance Efficiency](the-well-architected-framework/pillar-3-performance-efficiency.md)
+  * [Pillar 4 - Cost Optimization](the-well-architected-framework/pillar-4-cost-optimization.md)
+  * [Pillar 5 - Operational Excellence](the-well-architected-framework/pillar-5-operational-excellence.md)
 
