@@ -24,3 +24,9 @@ description: >-
 * Get volume discounts based on aggregate usage
 * Current soft limit of 20 accounts to consolidate
 
+### AWS Budgets
+
+AWS Budgets gives you the ability to set custom budgets that alert you when your costs or usage exceed \(or are forecasted to exceed\) your budgeted amount.
+
+Budgets can be tracked at the monthly, quarterly, or yearly level, and you can customize the start and end dates. You can further refine your budget to track costs associated with multiple dimensions, such as AWS service, linked account, tag, and others. Budget alerts can be sent via email and/or Amazon Simple Notification Service \(SNS\) topic.
+
