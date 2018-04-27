@@ -1,3 +1,7 @@
+---
+description: 'FAQ: https://aws.amazon.com/swf/faqs/'
+---
+
 # Amazon SWF
 
 * SWF \(Simple Workflow Service\) is a web service that makes it easy to coordinate work across distributed application components. Coordinate tasks & workflows
@@ -5,7 +9,7 @@
 * No EC2 components involved
 * It can also involve human actors
 
-**SWF Actors**
+### **SWF Actors**
 
 1. WF Starters – e-commerce application
 2. WF Deciders – Control flow of activity tasks

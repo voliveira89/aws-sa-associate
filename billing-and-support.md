@@ -6,10 +6,8 @@ description: >-
 
 # Billing and Support
 
-* **AWS Premium support plans: Basic, Developer, Business, Enterprise**
-* **Only Business and Enterprise support plans contains all AWS Trusted Advisor functions**
-
-
+* AWS Premium support plans: Basic, Developer, Business, Enterprise
+* Only Business and Enterprise support plans contains all AWS Trusted Advisor functions
 
 | **Severity** | **First-Response Time** | **Description / Support Plan** |
 | --- | --- | --- | --- | --- | --- |

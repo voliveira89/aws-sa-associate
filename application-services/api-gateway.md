@@ -1,3 +1,7 @@
+---
+description: 'FAQ: https://aws.amazon.com/api-gateway/faqs/'
+---
+
 # API Gateway
 
 * Managed web service which enables developers to publish, monitor and secure APIs at any scale

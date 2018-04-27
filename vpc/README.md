@@ -1,3 +1,7 @@
+---
+description: 'FAQ: https://aws.amazon.com/vpc/faqs/'
+---
+
 # VPC
 
 * VPC is a logical data center within an AWS Region
@@ -23,6 +27,4 @@
   * **Virtual private gateway **- is the VPN concentrator on the Amazon side of the VPN connection. You create a virtual private gateway and attach it to the VPC from which you want to create the VPN connection.
   * **Customer gateway** - is a physical device or software application on your side of the VPN connection.
 * To have HA in general or for ELB, ensure that you have at-least 2 public and or private subnets in different availability zones
-
-FAQ: [https://aws.amazon.com/vpc/faqs/](https://aws.amazon.com/vpc/faqs/)
 

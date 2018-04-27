@@ -1,3 +1,7 @@
+---
+description: 'FAQ: https://aws.amazon.com/sqs/faqs/'
+---
+
 # Amazon SQS
 
 * SQS \(Simple Queue Service\) is a distributed web service that gives you access to a message queue that can be used to store messages while waiting for a computer to process them
@@ -14,17 +18,17 @@
   * To enable long polling, set **ReceiveMessageWaitTimeSeconds to a number greater than 0**
 * For SQS, you have to pull messages. It doesn’t push messages – unlike SNS. 
 
-**Pricing**
+### **Message Lifecycle**
+
+1. Component 1 sends Message A to a queue, and the message is distributed across the Amazon SQS servers redundantly.
+2. When Component 2 is ready to process a message, it consumes messages from the queue, and Message A is returned. While Message A is being processed, it remains in the queue and isn't returned to subsequent receive requests for the duration of the visibility timeout.
+3. Component 2 deletes Message A from the queue to prevent the message from being received and processed again once the visibility timeout expires.
+
+### **Pricing**
 
 * First 1 million SQS Requests per month are free
 * $0.50 per 1 million SQS requests per month thereafter
 * 64KB chunk = 1 request. So a message of 256KB = 4 requests
 * Each messages has a visibility timeout – 12 hours by default \(maximum\). Visibility timeout period only starts when a worker node has picked up the message for processing. During this interval, the message is invisible to other processor workers
 * SQS can do auto-scaling. If queue grows beyond a threshold, instantiate new web/app servers. Use Auto scaling + SQS to achieve this
-
-### **Message Lifecycle**
-
-1. Component 1 sends Message A to a queue, and the message is distributed across the Amazon SQS servers redundantly.
-2. When Component 2 is ready to process a message, it consumes messages from the queue, and Message A is returned. While Message A is being processed, it remains in the queue and isn't returned to subsequent receive requests for the duration of the visibility timeout.
-3. Component 2 deletes Message A from the queue to prevent the message from being received and processed again once the visibility timeout expires.
 

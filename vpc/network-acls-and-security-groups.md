@@ -1,4 +1,4 @@
-# Network ACLs & Security Groups
+# Network ACLs vs Security Groups
 
 | **Security Group** | **Network ACL** |
 | --- | --- | --- | --- | --- | --- |

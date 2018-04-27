@@ -1,5 +1,5 @@
 ---
-description: 'https://aws.amazon.com/cloudhsm/faqs/'
+description: 'FAQ: https://aws.amazon.com/cloudhsm/faqs/'
 ---
 
 # AWS CloudHSM

@@ -1,3 +1,7 @@
+---
+description: 'FAQ: https://aws.amazon.com/sns/faqs/'
+---
+
 # Amazon SNS
 
 * Makes it easy to set up, operate and send notifications from the cloud

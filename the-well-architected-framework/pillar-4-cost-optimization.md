@@ -45,7 +45,7 @@ Use cost to minimum and use the savings in other parts of business.
 * **Questions**
   * How do you manage and/or consider adoption of new services?
 
-#### **Key AWS Services**
+### **Key AWS Services**
 
 * Match supply and demand – Auto scaling
 * Cost effective resources – EC2 \(reserved instances\), AWS Trusted Advisor

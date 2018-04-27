@@ -1,4 +1,8 @@
-# EFS
+---
+description: 'FAQ: https://aws.amazon.com/efs/faq/'
+---
+
+# Amazon Elastic File System
 
 Amazon Elastic File System \(Amazon EFS\) provides simple, scalable file storage for use with Amazon EC2. With Amazon EFS, storage capacity is elastic, growing and shrinking automatically as you add and remove files, so your applications have the storage they need, when they need it.
 

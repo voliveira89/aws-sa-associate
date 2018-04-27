@@ -1,8 +1,10 @@
+---
+description: 'FAQ: https://aws.amazon.com/redshift/faqs/'
+---
+
 # Redshift
 
 Petabyte scale DW solution in cloud. Used for OLAP – sum of various columns and joining the data.
-
-FAQ: [https://aws.amazon.com/redshift/faqs/](https://aws.amazon.com/redshift/faqs/)
 
 ### **Configurations**
 

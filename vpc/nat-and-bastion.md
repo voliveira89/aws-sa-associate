@@ -1,4 +1,4 @@
-# NAT & Bastion
+# NAT vs Bastion
 
 * You cannot use NAT instance to SSH/RDP into private subnet. For that Bastion \(Jump Box\) is required
 * Bastions are used for secure administrative tasks only. Bastions are **placed in public subnets** and connect to private subnets via private IP

@@ -1,6 +1,6 @@
 # Databases 101
 
-#### RDBMS
+### RDBMS
 
 RDBMS Types:
 
@@ -11,7 +11,7 @@ RDBMS Types:
 * Aurora
 * MariaDB
 
-#### NoSQL DBs
+### NoSQL DBs
 
 Document Oriented:
 
@@ -21,11 +21,11 @@ Document Oriented:
 
 Collection = Table, Document = Row, Keys-Value Pairs = Fields
 
-#### Data Warehousing
+### Data Warehousing
 
 OLTP \(pulls out specific / narrow record set\) vs OLAP – \(pulls in large number of records\). It used different architecture and infrastructure layer. Differ in terms of queries run on top of data. OLAP is more about aggregation.
 
-#### ElastiCache
+### ElastiCache
 
 In memory cache in cloud:
 

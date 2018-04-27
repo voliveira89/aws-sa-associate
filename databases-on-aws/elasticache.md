@@ -1,11 +1,13 @@
+---
+description: 'FAQ: https://aws.amazon.com/elasticache/faqs/'
+---
+
 # ElastiCache
 
 * Easy to deploy, operate and scale an in-memory cache in the cloud.
 * Improve performance by avoiding repeated calls to DB.
 * Improve latency and throughput for read-heavy applications.
 * Can be used for compute intensive data
-
-FAQ: [https://aws.amazon.com/elasticache/faqs/](https://aws.amazon.com/elasticache/faqs/)
 
 ### **Memcached**
 

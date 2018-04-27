@@ -1,3 +1,7 @@
+---
+description: 'FAQ: https://aws.amazon.com/rds/aurora/faqs/'
+---
+
 # Aurora
 
 * Bespoke Database Engine
@@ -6,8 +10,6 @@
 * No Free Tier usage available 
 * Also available only in select regions
 * Takes slightly longer to provision
-
-FAQ: [https://aws.amazon.com/rds/aurora/faqs/](https://aws.amazon.com/rds/aurora/faqs/)
 
 ### **Performance**
 

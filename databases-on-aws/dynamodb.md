@@ -1,3 +1,7 @@
+---
+description: 'FAQ: https://aws.amazon.com/dynamodb/faqs/'
+---
+
 # DynamoDB
 
 * Fast and flexible NoSQL database
@@ -15,6 +19,4 @@
 * Reserved capacity is available for DynamoDB as well
 * The maximum item size in DynamoDB is **400 KB**, which includes both attribute name binary length \(UTF-8 length\) and attribute value lengths \(again binary length\)
 * Amazon DynamoDB Accelerator \(DAX\) is a fully managed, highly available, in-memory cache for DynamoDB that delivers up to a 10x performance improvement – from milliseconds to microseconds – even at millions of requests per second
-
-FAQ: [https://aws.amazon.com/dynamodb/faqs/](https://aws.amazon.com/dynamodb/faqs/)
 
