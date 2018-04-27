@@ -1,6 +1,6 @@
 # EBS vs Instance Store
 
-* You can **reboot or terminate** instance store backed EC2 VMs
+* You can **reboot or terminate** instance store backed EC2 VMs \(if stopped, you will lose data\)
 * You can **start, stop, reboot or terminate** EBS backed EC2 VMs
 * EC2 instance on instance store is lost if host hypervisor fails. Not so with EBS backed instances.
 * EBS volumes can be attached/detached to EC2 instances. One at a time
