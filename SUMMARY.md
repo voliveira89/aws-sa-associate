@@ -10,6 +10,8 @@
     * [IAM Features](identity-and-access-management/untitled-1/iam-features.md)
     * [Accessing IAM](identity-and-access-management/untitled-1/accessing-iam.md)
   * [Cross Account Access](identity-and-access-management/cross-account-access.md)
+  * [AWS Security Token Service](identity-and-access-management/aws-security-token-service.md)
+  * [Active Directory Integration](identity-and-access-management/active-directory-integration.md)
 * [S3 - Simple Storage Service](aws-object-storage-and-cdn-s3-glacier-and-cloudfront/README.md)
   * [S3 Object Storage Classes](aws-object-storage-and-cdn-s3-glacier-and-cloudfront/s3-object-storage-classes.md)
   * [S3 Buckets](aws-object-storage-and-cdn-s3-glacier-and-cloudfront/s3-buckets.md)
@@ -86,4 +88,18 @@
   * [Amazon Kinesis](application-services/amazon-kinesis.md)
   * [Amazon Elastic Transcoder](application-services/amazon-elastic-transcoder.md)
   * [API Gateway](application-services/api-gateway.md)
+  * [Amazon WAF](application-services/amazon-waf.md)
+  * [AWS OpsWorks](application-services/aws-opsworks.md)
+  * [AWS Systems Manager](application-services/aws-systems-manager.md)
+  * Key Management Options
+    * [AWS CloudHSM](application-services/key-management-options/aws-cloudhsm.md)
+    * [AWS Key Management Service](application-services/key-management-options/aws-key-management-service.md)
+    * [Key Management Options Comparison](application-services/key-management-options/key-management-options-comparison.md)
+  * [AWS CloudFormation](application-services/aws-cloudformation.md)
+  * [AWS Trusted Advisor](application-services/aws-trusted-advisor.md)
+  * AWS Security Token Service
+  * [AWS Workspaces](application-services/aws-workspaces.md)
+  * [Elastic Container Service](application-services/elastic-container-service.md)
+* [Resource Groups/Tagging](resource-groups-tagging.md)
+* [Billing and Support](billing-and-support.md)
 
