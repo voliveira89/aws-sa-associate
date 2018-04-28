@@ -12,7 +12,7 @@ description: 'FAQ: https://aws.amazon.com/dynamodb/faqs/'
 * Stored on **3 geographically distinct Data Centers \(or AZs\)**. Built in redundancy
 * Consistency \(select type based on application needs\)
   * **Eventual consistent reads** - Consistency reached up to 1 second \(default\)
-  * **Strongly Consistent reads** - Consistency reached after writes to all copies are completed. &lt;1 second
+  * **Strongly consistent reads** - Consistency reached after writes to all copies are completed. &lt;1 second
 * Pricing – Write Capacity Units and Read Capacity Units \($/hr.\). Also Storage cost per month. You provision capacity in units/second. It can scale on the fly. Provisioned capacity
 * **Expensive for Writes. Cheap for Reads.** Important point v/s RDS
 * You can dynamically add columns – without the need to update other rows with the column data. As this is no RDBMS
