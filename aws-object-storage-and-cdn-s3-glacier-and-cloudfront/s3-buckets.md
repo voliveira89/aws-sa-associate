@@ -1,11 +1,10 @@
 # S3 Buckets
 
 * S3 bucket namespace is global. Region independent
-* Data is automatically distributed across a minimum of three physical facilities that are geographically separated within an AWS Region, and Amazon S3 can also automatically replicate data to any other AWS Region.
+* Data is automatically **distributed across a minimum of three physical facilities that are geographically separated within an AWS Region**, and Amazon S3 can also automatically replicate data to any other AWS Region.
 * Amazon S3 buckets in **all** regions provide **read-after-write consistency** for PUTS of new objects and **eventual consistency** for overwrite PUTS and DELETES
 * A bucket name in any region should only contain lower case characters. It has to be DNS Compliant
 * To route traffic using Amazon Route53 to a website that is hosted in an Amazon S3 Bucket the bucket must have the same name as your domain or subdomain
-* Object versioning - Different versions of the same object in a bucket
 * Only Static website can be hosted. Auto scaling, Load Balancing etc. all managed automatically
 * You can tag buckets \(or any AWS resource\) to track costs. Tags consist of keys and \(optional\) value pairs
 * Lifecycle management of objects can be set. E.g. move to Glacier after 30 days
