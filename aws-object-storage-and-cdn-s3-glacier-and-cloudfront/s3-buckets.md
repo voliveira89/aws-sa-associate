@@ -17,7 +17,7 @@
 * In a virtual-hosted–style URL, the bucket name is part of the domain name in the URL. For example:  
   * http://bucket.s3.amazonaws.com
   * http://bucket.s3-aws-region.amazonaws.com
-* If workload in an Amazon S3 bucket routinely exceeds 100 PUT/LIST/DELETE requests per second or more than 300 GET requests per second
+* If workload in an Amazon S3 bucket routinely **exceeds 100 PUT/LIST/DELETE **requests per second or **more than 300 GET** requests per second
   * Add a Hex Hash Prefix to Key Name
   * Reverse the Key Name String
   * Use Amazon CloudFront
