@@ -3,7 +3,7 @@
 ### **SSD Drives**
 
 * **General Purpose SSD** – gp2 – up to 10,000 IOPS. 3 IOPS per GB. Balances price and performance. You can burst **upto 3000 IOPS for 1GB**. Volume size: **1GiB to 16TiB**
-* **Provisioned SSD** – io1– when you need more than 10,000 IOPS. Large RDBMS DBs and NoSQL DBs. **Up to 32000 \(20000 on the course\) IOPS**. Volume size: **4GiB to 16TiB**
+* **Provisioned SSD** – io1– when you need more than 10,000 IOPS. **Ratio of 50 IOPS per GB.** Large RDBMS DBs and NoSQL DBs. **Up to 32000 \(20000 on the course\) IOPS**. Volume size: **4GiB to 16TiB**
 
 ### **Magnetic Drives**
 
