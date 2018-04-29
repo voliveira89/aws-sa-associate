@@ -30,6 +30,7 @@ Enable you to bid whatever price you want for instance capacity, providing for e
 * Applications that have flexible start and end times
 * Applications that are only feasible at very low compute prices
 * Users with urgent computing needs for large amounts of additional capacity
+* By simply selecting Spot when launching EC2 instances, you can **save up-to 90%** on On-Demand prices.
 * If your Spot instance is terminated or stopped by Amazon EC2 in the first instance hour, you will not be charged for that usage. However, if you terminate the instance yourself, you will be charged to the nearest second. If the Spot instance is terminated or stopped by Amazon EC2 in any subsequent hour, you will be charged for your usage to the nearest second. If you are running on Windows and you terminate the instance yourself, you will be charged for an entire hour.
 * You can choose to have your Spot instances terminated, stopped, or hibernated upon interruption. Stop and hibernate options are available for persistent Spot requests and Spot Fleets with the maintain option enabled. By default, your instances are terminated.
 
