@@ -47,6 +47,7 @@
   * [Elastic Load Balancer](ec2-elastic-compute-cloud/elastic-load-balancer.md)
   * [AWS Lambda](ec2-elastic-compute-cloud/aws-lambda.md)
   * [Amazon Elastic File System](ec2-elastic-compute-cloud/efs.md)
+  * [Elastic Network Interfaces](ec2-elastic-compute-cloud/elastic-network-interfaces.md)
 * [Route 53](route-53/README.md)
   * [DNS 101](route-53/dns-101.md)
   * [Supported Types](route-53/supported-types.md)
