@@ -97,6 +97,7 @@
   * [AWS Trusted Advisor](application-services/aws-trusted-advisor.md)
   * [AWS Workspaces](application-services/aws-workspaces.md)
   * [Elastic Container Service](application-services/elastic-container-service.md)
+  * [Amazon EMR](application-services/amazon-emr.md)
 * [Resource Groups/Tagging](resource-groups-tagging.md)
 * [Billing and Support](billing-and-support.md)
 * Whitepapers Reviews
