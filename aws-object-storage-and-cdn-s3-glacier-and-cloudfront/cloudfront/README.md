@@ -16,6 +16,6 @@
 * Edge locations are for read and write as well. Objects PUT on edge location are sent to origin
 * Objects are cached for life of TTL. TTL can be set for 0 seconds to 365 days. Default TTL is 24 hours. If objects change more frequently update the TTL
 * You can clear cached objects, with charges
-* Origin domain name – either S3 bucket, ELB or on premise domain
+* Origin domain name – either **S3 bucket, ELB or on premise domain**
 * Provisioning / Updating CloudFront distribution takes up to 15-20 minutes
 

@@ -7,3 +7,7 @@
 * ELBs cost money – ensure to delete them when not using
 * ELBs always have DNS name – no public IP Addresses. Trick question might induce you into believing IP4 address for ELB
 
+![](../.gitbook/assets/screen-shot-2018-04-29-at-09.35.54.png)
+
+
+

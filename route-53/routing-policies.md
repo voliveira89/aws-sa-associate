@@ -21,7 +21,9 @@ Allows you to route traffic based on lowest network latency for your end user. T
 
 ### **Failover**
 
-When you want to create an active /passive setup. DR site. R53 monitors health of site. If active fails then R53 routes traffic to passive site. Here you designate a primary and secondary endpoint for your hosted zone record
+When you want to create an active /passive setup. DR site. R53 monitors health of site. If active fails then R53 routes traffic to passive site. Here you designate a primary and secondary endpoint for your hosted zone record.
+
+If you have multiple resources that perform the same function, you can configure DNS failover so that Route 53 will route your traffic from an unhealthy resource to a healthy resource. For example, if you have two web servers and one web server becomes unhealthy, Route 53 can route traffic to the other web server.
 
 ### **Geolocation**
 

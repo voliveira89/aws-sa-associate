@@ -4,6 +4,7 @@
 * Memory – **RAM is a custom metric**
 * You can create custom dashboards all CloudWatch metrics
 * **CloudWatch alarms** – set notifications when particular thresholds are hit
+  * Three states: OK, ALARM, or INSUFFICIENT\_DATA
 * **CloudWatch events** help you respond to state changes. E.g. run Lambda function in response to
 * **CloudWatch Logs** helps you monitor EC2 instance/application/system logs. Logs send data to CloudWatch
 * The **CloudWatch Logs agent** provides an automated way to send log data to CloudWatch Logs from Amazon EC2 instances. The agent is comprised of the following components:
