@@ -4,7 +4,7 @@
   * Define IP range \(automatically creates default route table\)
   * Tenancy option - Dedicated hardware
 * Create subnets \(automatically creates route table & nACL\)
-  * Largest = /16, Smallest = /28 
+  * Largest = /16 \(65,535 IPs\), Smallest = /28 \(11 IPs\)
   * AWS reserves the 1st 4 and last 1 IP address of any subnet, so /28 = 11 usable IPs 
     * \(32-28=4, 2x2x2x2=16-5=11\)
 * Create IGW
