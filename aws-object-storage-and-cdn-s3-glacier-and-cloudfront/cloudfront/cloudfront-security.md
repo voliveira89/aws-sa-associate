@@ -1,7 +1,7 @@
 # CloudFront Security
 
 * You can force them to use CDN URL instead of S3 DNS
-* To restrict bucket access you need to create origin access identity. And allow this user read permission S3 bucket content
+* To restrict bucket access you need to create **Origin Access Identity \(OAI\)**. And allow this user read permission S3 bucket content
 * Set viewer protocol policy – redirect http to https, http or https
 * Allows various HTTP methods – GET, PUT, POST, PATCH, DELETE, and HEAD
 * Restrict viewer access for S3 and CDN using pre-Signed URLs or Signed cookies. E.g. You can view video only using that URL
