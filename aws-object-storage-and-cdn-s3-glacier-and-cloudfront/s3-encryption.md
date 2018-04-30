@@ -1,5 +1,7 @@
 # S3 Encryption
 
+Encryption **isn't enabled** by default.
+
 ### **In Transit**
 
 * Secured using SSL/TLS
