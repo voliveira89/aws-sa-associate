@@ -19,7 +19,7 @@ Provide you with a capacity reservation, and offer a significant discount on the
   * Standard RI \(Reserved Instances\)
   * Convertible RI
   * Scheduled RI
-* To stop incurring charges you have to:
+* To **stop incurring charges** you have to:
   * Terminate the Reserved instances as soon as possible
   * Go to the AWS Reserved Instance Marketplace and sell the Reserved instances
 
