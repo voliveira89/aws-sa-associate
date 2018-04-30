@@ -1,6 +1,6 @@
 # VPN Connections
 
-You can connect your VPC to remote networks by using a VPN connection which can be Direct Connect, IPsec VPN connection, AWS VPN CloudHub, or a third party software VPN appliance.
+You can connect your VPC to remote networks by using a VPN connection which can be **Direct Connect, IPsec VPN connection, AWS VPN CloudHub, or a third party software** VPN appliance.
 
 * You can enable access to your network from your VPC by attaching a **virtual private gateway** to the VPC, creating a custom route table, updating your security group rules, and creating an AWS managed VPN connection
 * A **customer gateway** is a physical device or software application on your side of the VPN connection
