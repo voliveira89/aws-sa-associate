@@ -10,6 +10,9 @@
 ![With cross-zone load balancing disable](../.gitbook/assets/image%20%281%29.png)
 
 * Elastic Load Balancing provides **access logs** that capture detailed information about requests sent to your load balancer.
+* Configure Health Checks
+  * Ping Protocol: TCP \(CLI/API default\), HTTP \(console default\), HTTPS, and SSL
+  * Ping port range: 1 to 65535 \(default 80\)
 * ELBs cost money – ensure to delete them when not using
 * ELBs always have DNS name – no public IP Addresses. Trick question might induce you into believing IP4 address for ELB
 
