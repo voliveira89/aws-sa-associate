@@ -1,4 +1,4 @@
-# Auto Scaling 101
+# Auto Scaling
 
 * Before you can create auto scaling group you **need to create a launch configuration**
 * **Launch Configuration** – Select AMI, Instance Type, Bootstrap script

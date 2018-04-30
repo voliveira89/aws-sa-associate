@@ -43,7 +43,7 @@
   * [CloudWatch](ec2-elastic-compute-cloud/cloudwatch.md)
   * [AWS CLI Usage](ec2-elastic-compute-cloud/aws-cli-usage.md)
   * [IAM Roles for EC2](ec2-elastic-compute-cloud/iam-roles-for-ec2.md)
-  * [Auto Scaling 101](ec2-elastic-compute-cloud/auto-scaling-101.md)
+  * [Auto Scaling](ec2-elastic-compute-cloud/auto-scaling.md)
   * [Elastic Load Balancer](ec2-elastic-compute-cloud/elastic-load-balancer.md)
   * [AWS Lambda](ec2-elastic-compute-cloud/aws-lambda.md)
   * [Amazon Elastic File System](ec2-elastic-compute-cloud/efs.md)
