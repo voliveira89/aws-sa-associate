@@ -1,6 +1,6 @@
 # IAM Features
 
-* IAM is a global service. It is not region specific
+* IAM is a **global service**. It is not region specific
 * Root account is the email address you use to sign up for AWS
 * AWS recommends very limited usage of root account
 * Setup **MFA** on root account
