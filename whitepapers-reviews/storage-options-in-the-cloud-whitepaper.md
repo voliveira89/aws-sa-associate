@@ -8,5 +8,5 @@
 
 ### **Storage Gateway**
 
-* AWS Storage Gateway’s software appliance is available for download as a virtual machine image that you install on a host in your datacenter. Once you’ve installed your gateway and associated with your AWS account through our activation process, you can use the AWS Management Console to create either gateway-cached or gateway-stored volumes that can be mounted as iSCI devices by your on-premises applications
+* AWS Storage Gateway software appliance is available for download as a virtual machine image that you install on a host in your datacenter. Once you’ve installed your gateway and associated with your AWS account through our activation process, you can use the AWS Management Console to create either gateway-cached or gateway-stored volumes that can be mounted as iSCI devices by your on-premises applications
 
