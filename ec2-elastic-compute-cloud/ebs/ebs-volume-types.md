@@ -11,3 +11,5 @@
 * **HDD, Cold** – sc1 – Data that isn’t frequently accessed. E.g. File Server. Cannot be used as boot volume. Volume size: **500MiB to 16TiB**
 * **HDD, Magnetic \(Standard\)** – Cheapest bootable EBS volume type. Used for apps where data is less frequently accessed and low cost is important. Volume size: **1GiB to 1TiB**
 
+![Storage characteristics of volume types](../../.gitbook/assets/screen-shot-2018-05-01-at-14.51.18.png)
+
