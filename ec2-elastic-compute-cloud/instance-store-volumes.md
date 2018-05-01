@@ -6,3 +6,5 @@
   * The instance stops
   * The instance terminates
 
+![Performance specifications of instance families](../.gitbook/assets/screen-shot-2018-05-01-at-14.56.31.png)
+
