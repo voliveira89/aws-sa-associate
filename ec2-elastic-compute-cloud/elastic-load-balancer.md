@@ -1,5 +1,7 @@
 # Elastic Load Balancer
 
+![Comparison between LBs](../.gitbook/assets/screen-shot-2018-04-29-at-09.35.54%20%281%29.png)
+
 * Configure **Sticky Sessions** for Your Classic Load Balancer - enables the load balancer to bind a user's session to a specific instance. Requirements:
   * An HTTP/HTTPS load balancer
   * At least one healthy instance in each Availability Zone
@@ -15,8 +17,6 @@
   * Ping port range: 1 to 65535 \(default 80\)
 * ELBs cost money – ensure to delete them when not using
 * ELBs always have DNS name – no public IP Addresses. Trick question might induce you into believing IP4 address for ELB
-
-![Comparison between different ELBs](../.gitbook/assets/screen-shot-2018-04-29-at-09.35.54.png)
 
 ### Internal ELB vs. Internet-facing ELB
 
