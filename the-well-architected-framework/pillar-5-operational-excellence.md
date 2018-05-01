@@ -19,7 +19,7 @@ Includes operational practices and procedures used to manage production workload
 * Workloads should have
   * Runbooks - Operations guidance that operations teams can refer to so they can perform normal daily tasks
   * Playbooks - Guidance for responding to unexpected operational events.
-* CloudFormation cab used to ensure that environments contain all required resources when deployed in production
+* CloudFormation can used to ensure that environments contain all required resources when deployed in production
 * Implement auto scaling
 * Use AWS Config rules feature to create mechanisms to automatically track and respond to changes in workloads and environments
 * Use tagging

@@ -33,7 +33,7 @@
   * ACLs
   * RBAC – Role based access control
   * Password Management
-* Questions
+* **Questions**
   * How are you protecting access to and use of AWS root account credentials?
   * How are you defining roles and responsibilities of system users to control human access to AWS Console and APIs – e.g. Groups for system admins, group for HR and other departments?
   * How are you limiting automated access to AWS resources? – Application scripts, tools – by using roles
@@ -43,7 +43,7 @@
 
 * How do you protect your data center – RFID controls, security, CCTV etc?
 * Infrastructure protection essentially exists at VPC level – Physical infra is managed by AWS
-* Questions
+* **Questions**
   * How are you enforcing network and host-level boundary protection? E.g. Jump host. Which ports can be used.
   * How are you enforcing AWS Service level protections? Are you using IAM?
   * How are you protecting integrity of operating system?
@@ -56,8 +56,9 @@
   * Config
   * S3
   * Glacier
-* Questions
-  * How are you capturing and analyzing your AWS logs. CloudTrail is a regional service. Which 3rd party tools you are using for this analysis.
+* **Questions**
+  * How are you capturing and analyzing your AWS logs? 
+  * Which 3rd party tools you are using for this analysis?
 
 ### **Key AWS Services**
 
