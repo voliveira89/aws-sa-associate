@@ -12,9 +12,11 @@ Allow you to pay a fixed rate **by the second** \(it used to by both of the hour
 
 Provide you with a capacity reservation, and offer a significant discount on the hourly charge for an instance. 1 year or 3 year terms. Pay upfront, get discount \(**upto 70%**\).
 
-* Applications with steady state or predictable usage.
-* Applications that require reserved capacity.
-* Reserved instances can’t be moved from one region to another
+* Applications with steady state or predictable usage
+* Applications that require reserved capacity
+* Can’t be moved from one region to another
+* Can be migrated across AZs, because you can migrate instances between AZs.
+* Can be applied to instances launched by Auto-scaling.
 * Users able to make upfront payments to reduce their total computing costs even further:
   * Standard RI \(Reserved Instances\)
   * Convertible RI
