@@ -16,7 +16,7 @@
 * curl [http://169.254.169.254/latest/meta-data/](http://169.254.169.254/latest/meta-data/)
 * Instance information is available in Meta-Data. Not in User-Data
 
-Notes:
+#### Tips
 
 * EC2 Key Pairs are region specific
 * Scripts can be passed on to the EC2 instance at first boot time as part of user-data
@@ -27,5 +27,4 @@ Notes:
 * Termination protection is **turned off by default**. You need to turn it on
 * When instance is terminated, root volume is deleted. You can turn if off
 * It exists a soft limit to launch only **20 instances at a time, per region**
-* **Enhanced networking** provides higher bandwidth, higher packet-per-second \(PPS\) performance, and consistently lower inter-instance latencies.
 
