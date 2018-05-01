@@ -18,8 +18,17 @@ description: 'FAQ: https://aws.amazon.com/dynamodb/faqs/'
 * Reserved capacity is available for DynamoDB as well
 * The item size in DynamoDB goes from **1 byte to** **400 KB**, which includes both attribute name binary length \(UTF-8 length\) and attribute value lengths \(again binary length\)
 * When you create a table, you specify how much **provisioned throughput capacity** you want to reserve for reads and writes. DynamoDB will reserve the necessary resources to meet your throughput needs while ensuring consistent, low-latency performance. You can also change your provisioned throughput settings, increasing or decreasing capacity as needed.
-* You can **create tables that are automatically replicated across two or more AWS Regions**, with full support for multi-master writes. This gives you the ability to build fast, massively scaled applications for a global user base without having to manage the replication process.
 * Pricing – Write Capacity Units and Read Capacity Units \($/hr.\). Also storage cost per month. You provision capacity in units/second. It can scale on the fly. Provisioned capacity
+
+#### Cross-Region Replication
+
+You can **create tables that are automatically replicated across two or more AWS Regions**, with full support for multi-master writes. This gives you the ability to build fast, massively scaled applications for a global user base without having to manage the replication process.
+
+* Efficient disaster recovery
+* Faster reads \(read from the closest data center\)
+* Easier traffic management \(distribute the read workload across tables\)
+* Easy regional migration \(creating a read replica in a new region, and then promoting the replica to be a master, you migrate your app to that region more easily\)
+* Live data migration \(to move a table from one region to another, you can create a replica of the table from the source region in the destination region, when the tables are in sync, you can switch your app to write to the destination region\)
 
 #### Amazon DynamoDB Accelerator \(DAX\)
 
