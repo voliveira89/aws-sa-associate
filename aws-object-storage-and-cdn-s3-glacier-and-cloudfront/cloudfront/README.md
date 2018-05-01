@@ -11,11 +11,12 @@
 
 ### Tips
 
-* First request is slow as it comes from source origin. Subsequent requests improve speed as they are cached in nearest edge location and routed there until TTL expires
+* **First request is slow as it comes from source origin**. Subsequent requests improve speed as they are cached in nearest edge location and routed there until TTL expires
 * CloudFront also works with non AWS origin which can be on premise as well
 * Edge locations are for read and write as well. Objects PUT on edge location are sent to origin
 * Objects are cached for life of TTL. TTL can be set for 0 seconds to 365 days. Default TTL is 24 hours. If objects change more frequently update the TTL
 * You can clear cached objects, with charges
 * Origin domain name – either **S3 bucket, ELB or on premise domain**
 * Provisioning / Updating CloudFront distribution takes up to 15-20 minutes
+* When CloudFront receives an end-user request, the requested path is compared with path patterns in the order in which cache behaviors are listed in the distribution. **The first match determines which cache behavior is applied to that request.**
 
