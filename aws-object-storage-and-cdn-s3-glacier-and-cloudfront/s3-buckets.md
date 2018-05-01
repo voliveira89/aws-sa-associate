@@ -21,6 +21,7 @@
   * Reverse the Key Name String
   * Use Amazon CloudFront
 * Individual Amazon S3 objects can range in size from a minimum of **0 bytes** to a maximum of **5 TB**. The largest object that can be uploaded **in a single PUT is 5 GB**. For objects larger than **100 MB**, customers should consider using the Multipart Upload capability.
+  * In Glacier, archives up to about 40 TB \(the single archive limit\)
 * Multipart Upload specifications:
 
 | **Item** | **Specification** |
