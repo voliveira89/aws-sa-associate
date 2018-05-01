@@ -6,8 +6,20 @@ description: >-
 
 # Billing and Support
 
-* AWS Premium support plans: Basic, Developer, Business, Enterprise
-* Only Business and Enterprise support plans contains all AWS Trusted Advisor functions
+### Support Plans
+
+Basic, Developer support plan:
+
+1. Access to 6 core Trusted Advisor checks only.
+2. No 24\*7 support.
+
+Business, Enterprise support plan:
+
+1. Access full set of Trusted Advisor checks
+2. 24\*7 access to customer service, docs, whitepapers and support forums
+3. 24\*7 access to Cloud Support Engineers via emails, chat & phone.
+
+Prices: Basic &lt; Developer &lt; Business &lt; Enterprise.
 
 | **Severity** | **First-Response Time** | **Description / Support Plan** |
 | --- | --- | --- | --- | --- | --- |

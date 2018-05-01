@@ -1,5 +1,7 @@
 # EC2 Tips
 
+![Instance Lifecycle](../.gitbook/assets/2018-01-20_001344.png)
+
 **When you stop a running instance, the following happens:**
 
 * The instance performs a normal shutdown and stops running; its status changes to stopping and then stopped.
