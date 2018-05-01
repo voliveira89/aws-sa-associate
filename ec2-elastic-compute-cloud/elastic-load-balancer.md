@@ -18,5 +18,9 @@
 
 ![Comparison between different ELBs](../.gitbook/assets/screen-shot-2018-04-29-at-09.35.54.png)
 
+### Internal ELB vs. Internet-facing ELB
 
+You can assign instance from private subnet to ELB, in this case, ELB will automatically become internal ELB and AWS will assign scheme as "Internal". If your subnet is public then ELB will automatically become external ELB and AWS will assign scheme as "Internet-facing". You can add Internet Gateway to VPC and add IGW route in the subnet to make it available over the Internet, however, in this case, AWS will still show ELB scheme as internal but it will allow Internet traffic to the instance. \(You always need an IGW.\)
+
+![](../.gitbook/assets/2018-01-21_234341.png)
 
