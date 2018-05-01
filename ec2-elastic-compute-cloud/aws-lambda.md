@@ -28,6 +28,12 @@ Lambda function can trigger another Lambda function and it can also use other AW
 * Super cheap.
 * Alexa is using Lambda. When you talk to it, you trigger a lambda function, and this lambda function will respond to you.
 
+#### Limits
+
+![](../.gitbook/assets/2018-01-18_220734.png)
+
+
+
 Notes:
 
 * Lambda scale out, not up, automatically.
